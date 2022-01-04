@@ -13,6 +13,8 @@ int main()
     char input[] = "Graviola       Games  is  the  best  game developer ever";
     char * ret = RevertWordsInString(input);
     printf("\nOutput= %s \n",ret);
+    delete ret;
+    return 0;
 
 }
 
